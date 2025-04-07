@@ -9,29 +9,23 @@
 
 ## 🖥️ Live Demo
 
-🌐 [Visit Portfolio](https://vinaymaguluri.netlify.app)  
-(Replace with your actual deployed link)
+🌐 [Visit Portfolio](https://vinay-protfolio.vercel.app/)  
+
 
 ---
 
 ## 👨‍💻 About Me
 
-Hi, I'm **Vinay Maguluri**, a passionate **AI & ML Engineer** and **Full Stack Developer** with a strong foundation in data science, cloud computing, and UI/UX design. This portfolio website is a reflection of my journey, skills, and the projects I’ve worked on.
+Hi, I'm **Vinay Maguluri**, a passionate **AI & ML Engineer** and **Full Stack Developer** with a strong foundation in data science, cloud computing, and Fullstack Development. This portfolio website is a reflection of my journey, skills, and the projects I’ve worked on.
 
----
-
-## 📸 Preview
-
-![Portfolio Preview](https://your-screenshot-link.png)
-*(Add a screenshot of your site here or replace with an actual image URL)*
-
----
 
 ## 🛠️ Tech Stack
 
 | Category        | Technologies |
 |----------------|--------------|
 | Frontend       | React, TypeScript, TailwindCSS |
+| Backend        | Firebase, Mongo DB |
+| AI & ML        | ML Algorthms, NLP, Gen AI |
 | Animations     | Framer Motion, Vanta.js |
 | Icons & UI     | Lucide, ShadCN UI |
 | Deployment     | Vercel / Netlify |
