@@ -43,7 +43,7 @@ Stay connected and follow my journey:
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/vinaymaguluri_7)
 [![X](https://img.shields.io/badge/X-black?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/vinaymaguluri_7)
 
-📬 **Email:** viinay7@gmail.com@gmail.com
+📬 **Email:** viinay7@gmail.com / 2200080147aids@gmail.com
 
 
 ## 📂 Folder Structure
