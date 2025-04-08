@@ -73,7 +73,7 @@ export function About() {
         </div>
         <div className="mx-auto mt-12 grid max-w-5xl gap-8 md:grid-cols-2">
           <div className="space-y-4 fade-in-left delay-100">
-            <h3 className="text-2xl font-bold">Who I Am ?</h3>
+            <h3 className="text-2xl font-bold">Professional Profile</h3>
             <p className="text-muted-foreground">
               I'm a dedicated AI & ML Engineer and Full Stack Developer with a passion for building intelligent systems and end-to-end applications. With a strong foundation in both backend and frontend technologies, along with expertise in machine learning, I bring a holistic approach to every project.
             </p>

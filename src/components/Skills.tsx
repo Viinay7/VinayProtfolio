@@ -1,32 +1,27 @@
-import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export function Skills() {
   const technicalSkills = [
-    { name: "HTML & CSS", level: 95 },
-    { name: "JavaScript", level: 90 },
-    { name: "React.js", level: 85 },
-    { name: "TypeScript", level: 80 },
-    { name: "Node.js", level: 75 },
-    { name: "Mongo DB", level: 70 },
+    { name: "HTML & CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+    { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+    { name: "React.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+    { name: "TypeScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
+    { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+    { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
   ];
 
   const aimlSkills = [
-    { name: "Python", level: 95 },
-    { name: "PyTorch", level: 85 },
-    { name: "Scikit-Learn", level: 80 },
-    { name: "Natural Language Processing", level: 80 },
-    { name: "Gen AI", level: 75 },
-    { name: "Computer Vision", level: 70 },
+    { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "PyTorch", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
+    { name: "Scikit-Learn", icon: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" },
+    { name: "Numpy", icon: "https://devicon-website.vercel.app/api/numpy/original.svg" },
+    { name: "Gen AI", icon: "https://img.icons8.com/color/48/artificial-intelligence.png" },
+    { name: "Open CV", icon: "https://devicon-website.vercel.app/api/opencv/original.svg" },
   ];
 
-  const softSkills = [
-    "Communication",
-    "Problem Solving",
-    "Teamwork",
-  ];
+  const softSkills = ["Communication", "Problem Solving", "Teamwork"];
 
   return (
     <section id="skills" className="py-16 px-4 md:py-24 md:px-6 fade-in">
@@ -47,28 +42,28 @@ export function Skills() {
               <TabsTrigger value="design">AI/ML Skills</TabsTrigger>
               <TabsTrigger value="soft">Soft Skills</TabsTrigger>
             </TabsList>
-            <TabsContent value="technical" className="mt-6 space-y-6">
+
+            {/* Technical Skills */}
+            <TabsContent value="technical" className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-6">
               {technicalSkills.map((skill, index) => (
-                <div key={index} className="space-y-2 fade-in-left" style={{ animationDelay: `${index * 100}ms` }}>
-                  <div className="flex justify-between">
-                    <h3 className="font-medium">{skill.name}</h3>
-                    <span className="text-sm text-muted-foreground">{skill.level}%</span>
-                  </div>
-                  <Progress value={skill.level} className="h-2" />
+                <div key={index} className="flex flex-col items-center gap-2 fade-in-up" style={{ animationDelay: `${index * 100}ms` }}>
+                  <img src={skill.icon} alt={skill.name} className="w-12 h-12 object-contain" />
+                  <span className="text-sm font-medium text-center">{skill.name}</span>
                 </div>
               ))}
             </TabsContent>
-            <TabsContent value="design" className="mt-6 space-y-6">
+
+            {/* AI/ML Skills */}
+            <TabsContent value="design" className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-6">
               {aimlSkills.map((skill, index) => (
-                <div key={index} className="space-y-2 fade-in-left" style={{ animationDelay: `${index * 100}ms` }}>
-                  <div className="flex justify-between">
-                    <h3 className="font-medium">{skill.name}</h3>
-                    <span className="text-sm text-muted-foreground">{skill.level}%</span>
-                  </div>
-                  <Progress value={skill.level} className="h-2" />
+                <div key={index} className="flex flex-col items-center gap-2 fade-in-up" style={{ animationDelay: `${index * 100}ms` }}>
+                  <img src={skill.icon} alt={skill.name} className="w-12 h-12 object-contain" />
+                  <span className="text-sm font-medium text-center">{skill.name}</span>
                 </div>
               ))}
             </TabsContent>
+
+            {/* Soft Skills */}
             <TabsContent value="soft" className="mt-6">
               <Card className="fade-in-up delay-200">
                 <CardContent className="p-6">
