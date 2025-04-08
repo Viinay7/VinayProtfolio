@@ -1,77 +1,62 @@
-<<<<<<< HEAD
-# Welcome to your Lovable project
+# 🚀 Vinay Maguluri – Portfolio Website
 
-## Project info
+![GitHub repo size](https://img.shields.io/github/repo-size/Viinay7/VinayProtfolio)
+![GitHub last commit](https://img.shields.io/github/last-commit/Viinay7/VinayProtfolio)
+![GitHub stars](https://img.shields.io/github/stars/Viinay7/VinayProtfolio?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Viinay7/VinayProtfolio?style=social)
 
-**URL**: https://lovable.dev/projects/67b87c72-0986-4e5d-8f9c-a3ce95f4e7dc
+> ⚡ A modern, interactive, and responsive portfolio to showcase my skills, projects, and experience as an AI & ML Engineer and Full Stack Developer.
 
-## How can I edit this code?
+## 🖥️ Live Demo
 
-There are several ways of editing your application.
+🌐 [Visit Portfolio](https://vinay-protfolio.vercel.app/)  
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/67b87c72-0986-4e5d-8f9c-a3ce95f4e7dc) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 👨‍💻 About Me
 
-**Use your preferred IDE**
+Hi, I'm **Vinay Maguluri**, a passionate **AI & ML Engineer** and **Full Stack Developer** with a strong foundation in data science, cloud computing, and Fullstack Development. This portfolio website is a reflection of my journey, skills, and the projects I’ve worked on.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack
 
-Follow these steps:
+| Category        | Technologies |
+|----------------|--------------|
+| Frontend       | React, TypeScript, TailwindCSS |
+| Backend        | Firebase, Mongo DB |
+| AI & ML        | ML Algorthms, NLP, Gen AI |
+| Animations     | Framer Motion, Vanta.js |
+| Icons & UI     | Lucide, ShadCN UI |
+| Deployment     | Vercel / Netlify |
+| Version Control| Git, GitHub |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📫 Contact Me
 
-# Step 3: Install the necessary dependencies.
-npm i
+Stay connected and follow my journey:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vinay-maguluri-881369255/)
+[![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Viinay7)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@viinay7)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/vinaymaguluri_7)
+[![X](https://img.shields.io/badge/X-black?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/vinaymaguluri_7)
 
-**Edit a file directly in GitHub**
+📬 **Email:** viinay7@gmail.com / 2200080147aids@gmail.com
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
+## 📂 Folder Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+.
+├── public/             # Static assets
+├── src/
+│   ├── components/     # Reusable components (Navbar, Hero, Projects etc.)
+│   ├── pages/          # Pages (Home, Contact, etc.)
+│   ├── App.tsx         # App root
+│   └── main.tsx        # Entry point
+├── tailwind.config.ts
+├── vite.config.ts
+└── README.md
 
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/67b87c72-0986-4e5d-8f9c-a3ce95f4e7dc) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-=======
-# VinayProtfolio
->>>>>>> 152c1464241995206a79310ab96c62db04e41c20
