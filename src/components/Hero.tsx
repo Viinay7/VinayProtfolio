@@ -130,7 +130,7 @@ export function Hero() {
             <img
               alt="Profile"
               className="h-40 w-40 object-cover md:h-64 md:w-64"
-              src="https://media-hosting.imagekit.io/6da87e36a4cc43fb/my%20image.jpg?Expires=1838542107&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=h58ZteeLxk3Hq6d78vqI9rkWWRsw5Y3~AQhR34wnEZ3GZh1fqGZ14niss8EMePkUsTPi2AtkiTXy3xLBdoZzeYw4S3zCj3Cgq1lr27I88N~xtqBOE34MA7aEYH4EU2NuxrImRYB3OJScQiWYhFt8C0pD6eGrs6zq-aXLciHKwhhPij~DNiDmDg3jUrHovqy5tDo0I3Wg1heJllggBulmB7CUamYw830Ui3aka611TfId~ZhKxK1HHRodNvjdGx70G0x-W8jSiC1gQPXGOfntgPLoUVsrEjycWulA0Ef2h9CnGdLNK3wDNKfxI~SQrNd2jt43~uyKUuRa1twzQY9UYA__"
+              src="https://iili.io/FMU5vjI.jpg"
               width={256}
               height={256}
             />
