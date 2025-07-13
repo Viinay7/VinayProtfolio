@@ -104,7 +104,7 @@ export function Navbar() {
           
           {/* Resume button - hidden on mobile */}
           <a 
-            href="https://drive.google.com/file/d/1L2LtwEla9jQXzNNFMxj5BvAfUUo6o_Yz/view?usp=sharing" 
+            href="https://drive.google.com/file/d/1kPOnmYf5VcF8pDQT69_qiybVE0smku7C/view?usp=sharing" 
             target="_blank" 
             rel="noopener noreferrer"
             className="hidden md:flex items-center gap-1 px-4 py-2 rounded-md font-medium text-white bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600 hover:from-purple-600 hover:via-indigo-500 hover:to-blue-500 border border-transparent transition-all duration-500 shadow-md hover:shadow-lg animate-pulse-subtle hover:animate-none"
